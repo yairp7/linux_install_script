@@ -1,7 +1,7 @@
-apt-get install android-sdk
-apt-get install openjdk-8-jre openjdk-8-jdk icedtea-8-plugin
-apt-get install lib32stdc++6
-android update sdk --no-ui
+sudo apt-get install android-sdk
+sudo apt-get install openjdk-8-jre openjdk-8-jdk icedtea-8-plugin
+sudo apt-get install lib32stdc++6
+sudo android update sdk --no-ui
 sudo apt-get install p7zip-full
 curl -O http://dl.google.com/android/repository/android-ndk-r12b-linux-x86_64.zip
 unzip android-ndk-r12b-linux-x86_64.zip
