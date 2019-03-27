@@ -57,3 +57,11 @@ echo "alias bcv='java -jar ~/workspace/tools/bcv.jar'" >> ~/.extra_alias
 echo "alias cat='bat'" >> ~/.extra_alias
 echo "alias ll='ls -la'" >> ~/.extra_alias
 echo "zsh" >> ~/.bashrc
+wget -O ~/Downloads/apktool https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool
+wget -O ~/Downloads/apktool.jar https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.4.0.jar
+sudo mv ~/Downloads/apktool /usr/local/bin
+sudo mv ~/Downloads/apktool.jar /usr/local/bin
+sudo chmod +x /usr/local/bin/apktool
+sudo chmod +x /usr/local/bin/apktool.jar
+
+
