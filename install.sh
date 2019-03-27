@@ -63,5 +63,10 @@ sudo mv ~/Downloads/apktool /usr/local/bin
 sudo mv ~/Downloads/apktool.jar /usr/local/bin
 sudo chmod +x /usr/local/bin/apktool
 sudo chmod +x /usr/local/bin/apktool.jar
-
+wget -O ~/Downloads/d2j.zip https://bitbucket.org/pxb1988/dex2jar/downloads/dex2jar-2.0.zip
+unzip ~/Downloads/d2j.zip
+rm ~/Downloads/d2j.zip
+mv ~/Downloads/dex2jar-2.0 ~/workspace/tools
+sudo chmod +x ~/workspace/tools/dex2jar-2.0/d2j_invoke.sh
+sudo chmod +x ~/workspace/tools/dex2jar-2.0/d2j-dex2jar.sh
 
