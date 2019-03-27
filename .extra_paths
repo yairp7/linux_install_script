@@ -1,2 +1,0 @@
-export ANDROID_HOME=/usr/share/android-sdk
-export NDK_HOME=/usr/share/android-sdk/ndk-bundle

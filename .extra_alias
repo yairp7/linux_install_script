@@ -1,5 +1,0 @@
-alias ll='ls -la'
-
-alias s='/opt/sublime_text/sublime_text'
-alias ss='/opt/sublime_text/sublime_text .'
-alias cat='bat'
