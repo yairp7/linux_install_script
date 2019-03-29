@@ -11,7 +11,7 @@ echo "[+] Installing sublime"
 # wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 sudo apt-get install apt-transport-https -q
 # if [[ ! -f "/etc/apt/sources.list.d/sublime-text.list" ]]; then
-# 	echo "deb https://download.sublimetext.com/apt/stable/" | sudo tee /etc/apt/sources.list.d/$
+# 	echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 # fi
 sudo apt-get install sublime-text
 
@@ -75,3 +75,4 @@ rm ~/Downloads/d2j.zip
 mv ./dex2jar-2.0 ~/workspace/tools
 sudo chmod +x ~/workspace/tools/dex2jar-2.0/d2j_invoke.sh
 sudo chmod +x ~/workspace/tools/dex2jar-2.0/d2j-dex2jar.sh
+echo "source ~/.extra_alias" >> ~/.zshrc
